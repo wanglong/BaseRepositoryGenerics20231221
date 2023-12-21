@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
+        "projectName": "WebAPI.Net6.BaseRepositoryGenericsTests",
+        "projectPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
+        "packagesPath": "D:\\NuGetPackages",
+        "outputPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\u037lxw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\NuGetPackages": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://nuget.cnblogs.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj": {
+                "projectPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj",
+        "projectName": "WebAPI.Net6.BaseRepositoryGenerics",
+        "projectPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj",
+        "packagesPath": "D:\\NuGetPackages",
+        "outputPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\u037lxw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\NuGetPackages": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://nuget.cnblogs.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[1.7.14.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "MediatR.Extensions.FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.3.8, )"
+            },
+            "MiniProfiler.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Winton.Extensions.Configuration.Consul": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
