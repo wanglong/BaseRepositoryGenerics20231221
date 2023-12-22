@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WebAPI.Net6.BaseRepositoryGenerics.props" />
+</Project>
