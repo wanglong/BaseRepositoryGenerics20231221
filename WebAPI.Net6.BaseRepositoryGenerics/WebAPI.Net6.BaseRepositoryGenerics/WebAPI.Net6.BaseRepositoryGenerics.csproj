@@ -38,11 +38,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\ErrorMessage\Commands\" />
-    <Folder Include="Application\ErrorMessage\Common\" />
-    <Folder Include="Application\ErrorMessage\Model\" />
-    <Folder Include="Application\ErrorMessage\Queries\" />
-    <Folder Include="Application\ErrorMessage\Validators\" />
     <Folder Include="Mapping\" />
   </ItemGroup>
 
