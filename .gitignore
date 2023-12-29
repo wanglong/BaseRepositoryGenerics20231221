@@ -1,0 +1,7 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/WebAPI.Net6.BaseRepositoryGenerics/.vs/WebAPI.Net6.BaseRepositoryGenerics/FileContentIndex
+/WebAPI.Net6.BaseRepositoryGenerics/WebAPI.Net6.BaseRepositoryGenerics/bin/Debug/net6.0
+/WebAPI.Net6.BaseRepositoryGenerics/WebAPI.Net6.BaseRepositoryGenerics/obj/Debug/net6.0
