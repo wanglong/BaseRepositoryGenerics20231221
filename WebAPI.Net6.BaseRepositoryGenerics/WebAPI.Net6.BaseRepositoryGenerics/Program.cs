@@ -1,3 +1,4 @@
+using Autofac.Extensions.DependencyInjection;
 using Elasticsearch.Net;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.DataProtection;
@@ -33,7 +34,7 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
             // Add services to the container.
 
             builder.Services.AddControllers()
@@ -124,21 +125,21 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
 
             var cipherService = ActivatorUtilities.CreateInstance<CipherService>(builder.Services.BuildServiceProvider());
             var dbConnString = builder.Configuration.GetSection("ConnectionStrings:ConnString").Value;
-            if (dbConnString.Contains("database=")) //连接串还未加密
+            if (dbConnString!.Contains("database=")) //连接串还未加密
                 cipherService.Encrypt(dbConnString); //用于记录下来加密后的结果，用来修改配置文件中的数据库连接串
             else
                 dbConnString = cipherService.Decrypt(dbConnString);
 
             builder.Services.AddDbContext<MyContext>(o => o.UseSqlServer(dbConnString), ServiceLifetime.Scoped, ServiceLifetime.Scoped);
-            //builder.Services.AddDbContext<CYeetmLogsContext>(o => o.UseSqlServer(dbLogConnString));
+            
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            //builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            builder.Services.AddSingleton<ICipherService, CipherService>();
-            builder.Services.AddSingleton<ICacheService, CacheService>();
+            //builder.Services.AddSingleton<ICipherService, CipherService>();
+            //builder.Services.AddSingleton<ICacheService, CacheService>();
 
-            builder.Services.AddSingleton<IErrorMessageRepository, ErrorMessageRepository>();
-            builder.Services.AddSingleton<IErrorMessageService, ErrorMessageService>();
+            //builder.Services.AddSingleton<IErrorMessageRepository, ErrorMessageRepository>();
+            //builder.Services.AddSingleton<IErrorMessageService, ErrorMessageService>();
 
             builder.Services.AddHttpClient();
 
