@@ -13,6 +13,7 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Consul" Version="1.7.14.2" />
+    <PackageReference Include="CSRedisCore" Version="3.8.802" />
     <PackageReference Include="FluentValidation" Version="11.8.1" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
@@ -41,6 +42,14 @@
     <PackageReference Include="Polly.Extensions" Version="8.2.0" />
     <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
     <PackageReference Include="Polly.RateLimiting" Version="8.2.0" />
+    <PackageReference Include="Quartz" Version="3.8.0" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.8.0" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.8.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.0" />
+    <PackageReference Include="Quartz.Jobs" Version="3.8.0" />
+    <PackageReference Include="Quartz.Plugins" Version="3.8.0" />
+    <PackageReference Include="Quartz.Plugins.TimeZoneConverter" Version="3.8.0" />
+    <PackageReference Include="Quartz.Serialization.Json" Version="3.8.0" />
     <PackageReference Include="Refit" Version="7.0.0" />
     <PackageReference Include="Refit.HttpClientFactory" Version="7.0.0" />
     <PackageReference Include="Refit.Newtonsoft.Json" Version="7.0.0" />
@@ -49,6 +58,7 @@
     <PackageReference Include="Serilog.Exceptions.Refit" Version="8.4.0" />
     <PackageReference Include="Serilog.Formatting.Elasticsearch" Version="9.0.3" />
     <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="9.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.7.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Winton.Extensions.Configuration.Consul" Version="3.4.0" />
   </ItemGroup>
