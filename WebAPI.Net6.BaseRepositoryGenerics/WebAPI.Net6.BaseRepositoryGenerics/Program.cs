@@ -65,16 +65,6 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
 
             var configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory());
 
-            builder.Configuration.AddConsul(consulBaseKey, op =>
-            {
-                op.ConsulConfigurationOptions = cco =>
-                {
-                    cco.Address = new Uri(consulAddress);
-                    cco.Token = consulToken;
-                };
-                op.ReloadOnChange = true;
-            });
-
             configuration.AddConsul(consulBaseKey, op =>
             {
                 op.ConsulConfigurationOptions = cco =>

@@ -34,6 +34,10 @@
           "MiniProfiler.AspNetCore.Mvc": "4.3.8",
           "MiniProfiler.EntityFrameworkCore": "4.3.8",
           "Newtonsoft.Json": "13.0.3",
+          "OneOf": "3.0.263",
+          "OneOf.Extended": "3.0.263",
+          "OneOf.FSharp": "3.0.263",
+          "OneOf.SourceGenerator": "3.0.263",
           "Polly": "8.2.0",
           "Polly.Caching.IDistributedCache": "1.0.4",
           "Polly.Extensions": "8.2.0",
@@ -252,6 +256,55 @@
           "lib/net6.0/Flurl.Http.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "FSharp.Core/7.0.300": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.3.23.20307"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -1057,6 +1110,39 @@
           }
         }
       },
+      "OneOf/3.0.263": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OneOf.Extended/3.0.263": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "OneOf": "3.0.263"
+        },
+        "runtime": {
+          "lib/netstandard1.3/OneOf.Extended.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OneOf.FSharp/3.0.263": {
+        "dependencies": {
+          "FSharp.Core": "7.0.300",
+          "OneOf": "3.0.263"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.FSharp.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OneOf.SourceGenerator/3.0.263": {},
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "5.0.1"
@@ -2568,6 +2654,13 @@
       "path": "flurl.http/4.0.0",
       "hashPath": "flurl.http.4.0.0.nupkg.sha512"
     },
+    "FSharp.Core/7.0.300": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8vvItREJ1l5lcp3vBCSJ1mFevVAhR48I34DuF/EoUa7o1KlFpQpagyuZkVYMAsHPIjdp47ZxM9sI4eqeXaeWkA==",
+      "path": "fsharp.core/7.0.300",
+      "hashPath": "fsharp.core.7.0.300.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -3071,6 +3164,34 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "OneOf/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "path": "oneof/3.0.263",
+      "hashPath": "oneof.3.0.263.nupkg.sha512"
+    },
+    "OneOf.Extended/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/yCWXYXKcXYrL50y2aOXkfpn5xnaL3rUVf3Esrv5pTNjnnUlX1P+lw29KbbvmVH7opNYK34vgU1qWRxYNGidug==",
+      "path": "oneof.extended/3.0.263",
+      "hashPath": "oneof.extended.3.0.263.nupkg.sha512"
+    },
+    "OneOf.FSharp/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-glsNZFeLh4HwfxCzU2m9TyH9xqZsdZooh7J12xs5MWk/ohfbkEeLQKRlmFj6KjKzWCBrHj7/bNTX5au4Uk34RQ==",
+      "path": "oneof.fsharp/3.0.263",
+      "hashPath": "oneof.fsharp.3.0.263.nupkg.sha512"
+    },
+    "OneOf.SourceGenerator/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GxgryFHS0Te/Oq0ZBxCXInNefR6tELQcP5g2WUmgoeXALPrvMss8xWyBFyzS2ucLRpQa7pV+ZXhqO+7NPVxtoQ==",
+      "path": "oneof.sourcegenerator/3.0.263",
+      "hashPath": "oneof.sourcegenerator.3.0.263.nupkg.sha512"
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",

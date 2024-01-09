@@ -21,6 +21,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">D:\NuGetPackages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgOneOf_SourceGenerator Condition=" '$(PkgOneOf_SourceGenerator)' == '' ">D:\NuGetPackages\oneof.sourcegenerator\3.0.263</PkgOneOf_SourceGenerator>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">D:\NuGetPackages\microsoft.entityframeworkcore.tools\7.0.14</PkgMicrosoft_EntityFrameworkCore_Tools>
   </PropertyGroup>
 </Project>

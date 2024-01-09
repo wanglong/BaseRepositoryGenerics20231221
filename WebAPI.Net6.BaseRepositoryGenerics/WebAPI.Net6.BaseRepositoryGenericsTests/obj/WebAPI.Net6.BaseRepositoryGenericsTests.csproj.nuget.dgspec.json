@@ -227,6 +227,22 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.Extended": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.FSharp": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.SourceGenerator": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[8.2.0, )"

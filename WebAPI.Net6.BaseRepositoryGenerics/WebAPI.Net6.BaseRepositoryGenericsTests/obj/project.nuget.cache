@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UOQTMpTp4KXSXvCckToadmckoNpGE1FkAecCdg5ncVdJyit4ndSWCQu7EA1cBFRml78ZlidjSvRVHZc78oqa+A==",
+  "dgSpecHash": "3+HBLxSBTY77+rpKUHBVTdlfKLnIw8n5asoCN5uE0vKNKNwRoabwLtnEPnqVQ3NThsR8boesEdUkk1co5yalRg==",
   "success": true,
   "projectFilePath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "D:\\NuGetPackages\\fluentvalidation.dependencyinjectionextensions\\11.8.1\\fluentvalidation.dependencyinjectionextensions.11.8.1.nupkg.sha512",
     "D:\\NuGetPackages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
     "D:\\NuGetPackages\\flurl.http\\4.0.0\\flurl.http.4.0.0.nupkg.sha512",
+    "D:\\NuGetPackages\\fsharp.core\\7.0.300\\fsharp.core.7.0.300.nupkg.sha512",
     "D:\\NuGetPackages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
     "D:\\NuGetPackages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "D:\\NuGetPackages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
@@ -96,6 +97,10 @@
     "D:\\NuGetPackages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "D:\\NuGetPackages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "D:\\NuGetPackages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "D:\\NuGetPackages\\oneof\\3.0.263\\oneof.3.0.263.nupkg.sha512",
+    "D:\\NuGetPackages\\oneof.extended\\3.0.263\\oneof.extended.3.0.263.nupkg.sha512",
+    "D:\\NuGetPackages\\oneof.fsharp\\3.0.263\\oneof.fsharp.3.0.263.nupkg.sha512",
+    "D:\\NuGetPackages\\oneof.sourcegenerator\\3.0.263\\oneof.sourcegenerator.3.0.263.nupkg.sha512",
     "D:\\NuGetPackages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "D:\\NuGetPackages\\polly\\8.2.0\\polly.8.2.0.nupkg.sha512",
     "D:\\NuGetPackages\\polly.caching.idistributedcache\\1.0.4\\polly.caching.idistributedcache.1.0.4.nupkg.sha512",

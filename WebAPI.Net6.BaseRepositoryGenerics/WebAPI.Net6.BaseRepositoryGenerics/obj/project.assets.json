@@ -268,6 +268,60 @@
           }
         }
       },
+      "FSharp.Core/7.0.300": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1541,6 +1595,44 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "OneOf/3.0.263": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
+      "OneOf.Extended/3.0.263": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "OneOf": "3.0.263"
+        },
+        "compile": {
+          "lib/netstandard1.3/OneOf.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/OneOf.Extended.dll": {}
+        }
+      },
+      "OneOf.FSharp/3.0.263": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "7.0.300",
+          "OneOf": "3.0.263"
+        },
+        "compile": {
+          "lib/netstandard2.0/OneOf.FSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.FSharp.dll": {}
+        }
+      },
+      "OneOf.SourceGenerator/3.0.263": {
+        "type": "package"
       },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "type": "package",
@@ -4361,6 +4453,48 @@
         "lib/netstandard2.0/Flurl.Http.xml"
       ]
     },
+    "FSharp.Core/7.0.300": {
+      "sha512": "8vvItREJ1l5lcp3vBCSJ1mFevVAhR48I34DuF/EoUa7o1KlFpQpagyuZkVYMAsHPIjdp47ZxM9sI4eqeXaeWkA==",
+      "type": "package",
+      "path": "fsharp.core/7.0.300",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.7.0.300.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -6273,6 +6407,62 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "OneOf/3.0.263": {
+      "sha512": "2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "type": "package",
+      "path": "oneof/3.0.263",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.263.nupkg.sha512",
+        "oneof.nuspec"
+      ]
+    },
+    "OneOf.Extended/3.0.263": {
+      "sha512": "/yCWXYXKcXYrL50y2aOXkfpn5xnaL3rUVf3Esrv5pTNjnnUlX1P+lw29KbbvmVH7opNYK34vgU1qWRxYNGidug==",
+      "type": "package",
+      "path": "oneof.extended/3.0.263",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.Extended.dll",
+        "lib/net451/OneOf.Extended.dll",
+        "lib/netstandard1.3/OneOf.Extended.dll",
+        "oneof.extended.3.0.263.nupkg.sha512",
+        "oneof.extended.nuspec"
+      ]
+    },
+    "OneOf.FSharp/3.0.263": {
+      "sha512": "glsNZFeLh4HwfxCzU2m9TyH9xqZsdZooh7J12xs5MWk/ohfbkEeLQKRlmFj6KjKzWCBrHj7/bNTX5au4Uk34RQ==",
+      "type": "package",
+      "path": "oneof.fsharp/3.0.263",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/OneOf.FSharp.dll",
+        "oneof.fsharp.3.0.263.nupkg.sha512",
+        "oneof.fsharp.nuspec"
+      ]
+    },
+    "OneOf.SourceGenerator/3.0.263": {
+      "sha512": "GxgryFHS0Te/Oq0ZBxCXInNefR6tELQcP5g2WUmgoeXALPrvMss8xWyBFyzS2ucLRpQa7pV+ZXhqO+7NPVxtoQ==",
+      "type": "package",
+      "path": "oneof.sourcegenerator/3.0.263",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/OneOf.SourceGenerator.dll",
+        "oneof.sourcegenerator.3.0.263.nupkg.sha512",
+        "oneof.sourcegenerator.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
@@ -11746,6 +11936,10 @@
       "MiniProfiler.AspNetCore.Mvc >= 4.3.8",
       "MiniProfiler.EntityFrameworkCore >= 4.3.8",
       "Newtonsoft.Json >= 13.0.3",
+      "OneOf >= 3.0.263",
+      "OneOf.Extended >= 3.0.263",
+      "OneOf.FSharp >= 3.0.263",
+      "OneOf.SourceGenerator >= 3.0.263",
       "Polly >= 8.2.0",
       "Polly.Caching.IDistributedCache >= 1.0.4",
       "Polly.Extensions >= 8.2.0",
@@ -11919,6 +12113,22 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "OneOf": {
+            "target": "Package",
+            "version": "[3.0.263, )"
+          },
+          "OneOf.Extended": {
+            "target": "Package",
+            "version": "[3.0.263, )"
+          },
+          "OneOf.FSharp": {
+            "target": "Package",
+            "version": "[3.0.263, )"
+          },
+          "OneOf.SourceGenerator": {
+            "target": "Package",
+            "version": "[3.0.263, )"
           },
           "Polly": {
             "target": "Package",

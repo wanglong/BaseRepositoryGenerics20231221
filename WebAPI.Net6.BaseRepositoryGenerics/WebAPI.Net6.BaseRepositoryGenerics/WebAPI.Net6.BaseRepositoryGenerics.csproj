@@ -37,6 +37,10 @@
     <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.3.8" />
     <PackageReference Include="MiniProfiler.EntityFrameworkCore" Version="4.3.8" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OneOf" Version="3.0.263" />
+    <PackageReference Include="OneOf.Extended" Version="3.0.263" />
+    <PackageReference Include="OneOf.FSharp" Version="3.0.263" />
+    <PackageReference Include="OneOf.SourceGenerator" Version="3.0.263" />
     <PackageReference Include="Polly" Version="8.2.0" />
     <PackageReference Include="Polly.Caching.IDistributedCache" Version="1.0.4" />
     <PackageReference Include="Polly.Extensions" Version="8.2.0" />
@@ -65,6 +69,12 @@
 
   <ItemGroup>
     <Folder Include="Mapping\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
