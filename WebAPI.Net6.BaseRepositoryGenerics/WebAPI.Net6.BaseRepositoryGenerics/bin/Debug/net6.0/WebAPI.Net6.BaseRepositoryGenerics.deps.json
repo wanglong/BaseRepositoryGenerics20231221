@@ -13,6 +13,7 @@
           "Autofac": "7.1.0",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Autofac.Extras.DynamicProxy": "7.1.0",
+          "CSRedisCore": "3.8.802",
           "Consul": "1.7.14.2",
           "FluentValidation": "11.8.1",
           "FluentValidation.AspNetCore": "11.3.0",
@@ -33,11 +34,23 @@
           "MiniProfiler.AspNetCore.Mvc": "4.3.8",
           "MiniProfiler.EntityFrameworkCore": "4.3.8",
           "Newtonsoft.Json": "13.0.3",
+          "OneOf": "3.0.263",
+          "OneOf.Extended": "3.0.263",
+          "OneOf.FSharp": "3.0.263",
+          "OneOf.SourceGenerator": "3.0.263",
           "Polly": "8.2.0",
           "Polly.Caching.IDistributedCache": "1.0.4",
           "Polly.Extensions": "8.2.0",
           "Polly.Extensions.Http": "3.0.0",
           "Polly.RateLimiting": "8.2.0",
+          "Quartz": "3.8.0",
+          "Quartz.AspNetCore": "3.8.0",
+          "Quartz.Extensions.DependencyInjection": "3.8.0",
+          "Quartz.Extensions.Hosting": "3.8.0",
+          "Quartz.Jobs": "3.8.0",
+          "Quartz.Plugins": "3.8.0",
+          "Quartz.Plugins.TimeZoneConverter": "3.8.0",
+          "Quartz.Serialization.Json": "3.8.0",
           "Refit": "7.0.0",
           "Refit.HttpClientFactory": "7.0.0",
           "Refit.Newtonsoft.Json": "7.0.0",
@@ -46,6 +59,7 @@
           "Serilog.Exceptions.Refit": "8.4.0",
           "Serilog.Formatting.Elasticsearch": "9.0.3",
           "Serilog.Sinks.Elasticsearch": "9.0.3",
+          "StackExchange.Redis": "2.7.10",
           "Swashbuckle.AspNetCore": "6.5.0",
           "Winton.Extensions.Configuration.Consul": "3.4.0",
           "log4net": "2.0.15"
@@ -169,6 +183,18 @@
           }
         }
       },
+      "CSRedisCore/3.8.802": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {
+            "assemblyVersion": "3.8.802.0",
+            "fileVersion": "3.8.802.0"
+          }
+        }
+      },
       "Elasticsearch.Net/7.17.5": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -230,6 +256,55 @@
           "lib/net6.0/Flurl.Http.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "FSharp.Core/7.0.300": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.3.23.20307"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -324,7 +399,7 @@
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis/8.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "8.0.0",
-          "StackExchange.Redis": "2.6.122"
+          "StackExchange.Redis": "2.7.10"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.StackExchangeRedis.dll": {
@@ -538,7 +613,7 @@
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Microsoft.Extensions.Options": "8.0.0",
-          "StackExchange.Redis": "2.6.122"
+          "StackExchange.Redis": "2.7.10"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {
@@ -631,6 +706,15 @@
           }
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/6.0.0": {},
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -1026,6 +1110,39 @@
           }
         }
       },
+      "OneOf/3.0.263": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OneOf.Extended/3.0.263": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "OneOf": "3.0.263"
+        },
+        "runtime": {
+          "lib/netstandard1.3/OneOf.Extended.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OneOf.FSharp/3.0.263": {
+        "dependencies": {
+          "FSharp.Core": "7.0.300",
+          "OneOf": "3.0.263"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.FSharp.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OneOf.SourceGenerator/3.0.263": {},
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "5.0.1"
@@ -1106,6 +1223,103 @@
           "lib/net6.0/Polly.RateLimiting.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.2.0.2702"
+          }
+        }
+      },
+      "Quartz/3.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Quartz.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.AspNetCore/3.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.0",
+          "Quartz.Extensions.Hosting": "3.8.0"
+        },
+        "runtime": {
+          "lib/net6.0/Quartz.AspNetCore.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.Extensions.DependencyInjection/3.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Quartz": "3.8.0"
+        },
+        "runtime": {
+          "lib/net6.0/Quartz.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.Extensions.Hosting/3.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Quartz.Extensions.DependencyInjection": "3.8.0"
+        },
+        "runtime": {
+          "lib/net6.0/Quartz.Extensions.Hosting.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.Jobs/3.8.0": {
+        "dependencies": {
+          "Quartz": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Quartz.Jobs.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.Plugins/3.8.0": {
+        "dependencies": {
+          "Quartz.Jobs": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Quartz.Plugins.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.Plugins.TimeZoneConverter/3.8.0": {
+        "dependencies": {
+          "Quartz.Plugins": "3.8.0",
+          "TimeZoneConverter": "6.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Quartz.Plugins.TimeZoneConverter.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
+          }
+        }
+      },
+      "Quartz.Serialization.Json/3.8.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Quartz": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Quartz.Serialization.Json.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.0"
           }
         }
       },
@@ -1379,14 +1593,15 @@
           }
         }
       },
-      "StackExchange.Redis/2.6.122": {
+      "StackExchange.Redis/2.7.10": {
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Pipelines.Sockets.Unofficial": "2.2.8"
         },
         "runtime": {
           "lib/net6.0/StackExchange.Redis.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.6.122.38350"
+            "fileVersion": "2.7.10.12442"
           }
         }
       },
@@ -2243,6 +2458,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.ValueTuple/4.5.0": {},
       "System.Windows.Extensions/6.0.0": {
         "dependencies": {
           "System.Drawing.Common": "6.0.0"
@@ -2295,6 +2511,14 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "TimeZoneConverter/6.1.0": {
+        "runtime": {
+          "lib/net6.0/TimeZoneConverter.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
         }
       },
       "Winton.Extensions.Configuration.Consul/3.4.0": {
@@ -2381,6 +2605,13 @@
       "path": "consul/1.7.14.2",
       "hashPath": "consul.1.7.14.2.nupkg.sha512"
     },
+    "CSRedisCore/3.8.802": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tZOOSVxfLBm9hXnsmkqVcb5JCgdONB9mNIWa6BEkRcV8mYwaiQ9TLvyKrmoewP0cYZ7V/YU/6ks4J8X3eDoyfg==",
+      "path": "csrediscore/3.8.802",
+      "hashPath": "csrediscore.3.8.802.nupkg.sha512"
+    },
     "Elasticsearch.Net/7.17.5": {
       "type": "package",
       "serviceable": true,
@@ -2422,6 +2653,13 @@
       "sha512": "sha512-h/an1qLUfKiPs0f7y2v2OREmKozPShr8IIR26hCGuvffl+j52W9P0KE62jbqwfuxnlURDO0VqT1uyqgppd/hHw==",
       "path": "flurl.http/4.0.0",
       "hashPath": "flurl.http.4.0.0.nupkg.sha512"
+    },
+    "FSharp.Core/7.0.300": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8vvItREJ1l5lcp3vBCSJ1mFevVAhR48I34DuF/EoUa7o1KlFpQpagyuZkVYMAsHPIjdp47ZxM9sI4eqeXaeWkA==",
+      "path": "fsharp.core/7.0.300",
+      "hashPath": "fsharp.core.7.0.300.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -2675,6 +2913,20 @@
       "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ktOGFY2uJ6QqZbLgLZgYg6qWuOnwKEIYbpgGDR/1QY8E+8NhnL75dJZ+WDl88h7Q4JkIFeTkFBUGF5QmNcfUEg==",
+      "path": "microsoft.extensions.diagnostics.healthchecks/6.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6C9uhsA7GwT1qlXF+1JgOktilrWBSMLNVcwIjg63UvFaDVizg8fYTv826MC58dznvvT9yG31gGwsN1cFfg+yZQ==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2913,6 +3165,34 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
+    "OneOf/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "path": "oneof/3.0.263",
+      "hashPath": "oneof.3.0.263.nupkg.sha512"
+    },
+    "OneOf.Extended/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/yCWXYXKcXYrL50y2aOXkfpn5xnaL3rUVf3Esrv5pTNjnnUlX1P+lw29KbbvmVH7opNYK34vgU1qWRxYNGidug==",
+      "path": "oneof.extended/3.0.263",
+      "hashPath": "oneof.extended.3.0.263.nupkg.sha512"
+    },
+    "OneOf.FSharp/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-glsNZFeLh4HwfxCzU2m9TyH9xqZsdZooh7J12xs5MWk/ohfbkEeLQKRlmFj6KjKzWCBrHj7/bNTX5au4Uk34RQ==",
+      "path": "oneof.fsharp/3.0.263",
+      "hashPath": "oneof.fsharp.3.0.263.nupkg.sha512"
+    },
+    "OneOf.SourceGenerator/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GxgryFHS0Te/Oq0ZBxCXInNefR6tELQcP5g2WUmgoeXALPrvMss8xWyBFyzS2ucLRpQa7pV+ZXhqO+7NPVxtoQ==",
+      "path": "oneof.sourcegenerator/3.0.263",
+      "hashPath": "oneof.sourcegenerator.3.0.263.nupkg.sha512"
+    },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
       "serviceable": true,
@@ -2961,6 +3241,62 @@
       "sha512": "sha512-D4RxGQA+kIIkhtV2U5jxhfNl210YhwEmhlxIUZ1g0i5N+4ORuCCtopoVSVVBSMcBrre7tiRQcQhoNMURxCF/Ww==",
       "path": "polly.ratelimiting/8.2.0",
       "hashPath": "polly.ratelimiting.8.2.0.nupkg.sha512"
+    },
+    "Quartz/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XYg+O+yw24kNLqp1YyEaZCzpQyVhcLQ5vep61RDKPZFjRNMBfBxcZiHNRFMNuN0XQIQ6zTGTHdZl9h7CuEVvXA==",
+      "path": "quartz/3.8.0",
+      "hashPath": "quartz.3.8.0.nupkg.sha512"
+    },
+    "Quartz.AspNetCore/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GFvdtcDrP8czjytQa3L2L9K/nuIXzap8//UqpWIarydZ+0hJzJJiKDmFdYctioXvtOTQl1WQzD/Rj0Yd0mm/Vg==",
+      "path": "quartz.aspnetcore/3.8.0",
+      "hashPath": "quartz.aspnetcore.3.8.0.nupkg.sha512"
+    },
+    "Quartz.Extensions.DependencyInjection/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pJK26rqgTXTUdpA4TSRO6upn1YGcOKJhNw0WcIeD8ShLaO1lviM9KNE+Q5knIF4osdjOcTOsu7Rtjofth7olEw==",
+      "path": "quartz.extensions.dependencyinjection/3.8.0",
+      "hashPath": "quartz.extensions.dependencyinjection.3.8.0.nupkg.sha512"
+    },
+    "Quartz.Extensions.Hosting/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cNSrx0ifPTRL6AVXPTTXS6Yzv8Zc6pq0GXtdOOFfBAuWBmBRzZy1XZLl5ylOIWNFW3BHbwHOXm4NJ85WT/LKfw==",
+      "path": "quartz.extensions.hosting/3.8.0",
+      "hashPath": "quartz.extensions.hosting.3.8.0.nupkg.sha512"
+    },
+    "Quartz.Jobs/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VhdCMm/gu42yGyWXXa29Ncr/m9XwzH/0+xHoBWLx5AXLcBksnVghDgUKY/H3MPwpRKDk9VFYfrFu0vDHtbkcJg==",
+      "path": "quartz.jobs/3.8.0",
+      "hashPath": "quartz.jobs.3.8.0.nupkg.sha512"
+    },
+    "Quartz.Plugins/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z0WvyK2ivPn5tL89y7EMjG6CVJ3olbpOh1jOQexrATMyl4nvRaQG0hn3YxFyANDpxJvVYvu94bEVoLC50DdcAA==",
+      "path": "quartz.plugins/3.8.0",
+      "hashPath": "quartz.plugins.3.8.0.nupkg.sha512"
+    },
+    "Quartz.Plugins.TimeZoneConverter/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OG8ilkk49AYhSvLgXRep/BNRruUBRiw9KkIaxeZ7ZmFI2302CdBn0LRoVKIdR7xYyHXovzzsLaJQ1jwsuXbu4w==",
+      "path": "quartz.plugins.timezoneconverter/3.8.0",
+      "hashPath": "quartz.plugins.timezoneconverter.3.8.0.nupkg.sha512"
+    },
+    "Quartz.Serialization.Json/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uEWP7VGcsZLqvY4qaZnk8GfcY7U0u/5BPGsu+/NSaXJVcj5UosHy0dcuwh3Qf0eHVjRFx/ASHVBFgjKxNE8zKw==",
+      "path": "quartz.serialization.json/3.8.0",
+      "hashPath": "quartz.serialization.json.3.8.0.nupkg.sha512"
     },
     "Refit/7.0.0": {
       "type": "package",
@@ -3200,12 +3536,12 @@
       "path": "serilog.sinks.periodicbatching/3.1.0",
       "hashPath": "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512"
     },
-    "StackExchange.Redis/2.6.122": {
+    "StackExchange.Redis/2.7.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wp7mvGpFXaevfZ07/SDeh/6YHUJEgwJIGyjbDWKBYbPwKMJQYFz9zFEmBptqtVzqvSgft5nlewwutoaMaG0LPA==",
-      "path": "stackexchange.redis/2.6.122",
-      "hashPath": "stackexchange.redis.2.6.122.nupkg.sha512"
+      "sha512": "sha512-DHC438nKZUbtJ0H8O5pCTMrurYy6ByUPhzUNAPCUADtI4BSyvASpWAquYjN+4NKEiKaW5AO++tgftum3tDraPQ==",
+      "path": "stackexchange.redis/2.7.10",
+      "hashPath": "stackexchange.redis.2.7.10.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",
@@ -3816,6 +4152,13 @@
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
     },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
     "System.Windows.Extensions/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3836,6 +4179,13 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "TimeZoneConverter/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UGdtyKWJqXXinyvGB9X6NVoIYbTAidoZYmn3aXzxeEYC9+OL8vF36eDt1qjb6RqBkWDl4v7iE84ecI+dFhA80A==",
+      "path": "timezoneconverter/6.1.0",
+      "hashPath": "timezoneconverter.6.1.0.nupkg.sha512"
     },
     "Winton.Extensions.Configuration.Consul/3.4.0": {
       "type": "package",

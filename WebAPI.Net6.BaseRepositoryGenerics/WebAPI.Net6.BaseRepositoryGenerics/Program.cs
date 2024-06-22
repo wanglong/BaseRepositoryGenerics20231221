@@ -18,6 +18,7 @@ using WebAPI.Net6.BaseRepositoryGenerics.Domain.IServices;
 using WebAPI.Net6.BaseRepositoryGenerics.Domain.IServices.Cache;
 using WebAPI.Net6.BaseRepositoryGenerics.Domain.IServices.ErrorMessage;
 using WebAPI.Net6.BaseRepositoryGenerics.Domain.IServices.Secure;
+using WebAPI.Net6.BaseRepositoryGenerics.Extensions;
 using WebAPI.Net6.BaseRepositoryGenerics.Infrastructure;
 using WebAPI.Net6.BaseRepositoryGenerics.Repositories;
 using WebAPI.Net6.BaseRepositoryGenerics.Repositories.ErrorMessage;
@@ -63,16 +64,6 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
             var consulToken = localconfig["Consul:Token"];
 
             var configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory());
-
-            builder.Configuration.AddConsul(consulBaseKey, op =>
-            {
-                op.ConsulConfigurationOptions = cco =>
-                {
-                    cco.Address = new Uri(consulAddress);
-                    cco.Token = consulToken;
-                };
-                op.ReloadOnChange = true;
-            });
 
             configuration.AddConsul(consulBaseKey, op =>
             {
@@ -131,7 +122,7 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
                 dbConnString = cipherService.Decrypt(dbConnString);
 
             builder.Services.AddDbContext<MyContext>(o => o.UseSqlServer(dbConnString), ServiceLifetime.Scoped, ServiceLifetime.Scoped);
-            
+
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             //builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
@@ -266,7 +257,15 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
                 // options.Level = CompressionLevel.Optimal;
             });
             #endregion
+
+            #region [Quartz]
+            // Quartz任务调度.
+            var schedulerProvider = new Infrastructure.Quartz.SchedulerProvider();
+            schedulerProvider.CreateScheduler();
+            #endregion
+
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsProduction())
@@ -282,7 +281,7 @@ namespace WebAPI.Net6.BaseRepositoryGenerics
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseCustomExceptionMiddleware();
             app.MapControllers();
 
             app.Run();

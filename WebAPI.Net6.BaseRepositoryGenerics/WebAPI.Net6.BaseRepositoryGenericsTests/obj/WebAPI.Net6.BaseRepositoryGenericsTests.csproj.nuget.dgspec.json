@@ -1,34 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj": {}
+    "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj": {}
   },
   "projects": {
-    "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj": {
+    "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
+        "projectUniqueName": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
         "projectName": "WebAPI.Net6.BaseRepositoryGenericsTests",
-        "projectPath": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
-        "packagesPath": "G:\\Nuget\\.nuget",
-        "outputPath": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\obj\\",
+        "projectPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\WebAPI.Net6.BaseRepositoryGenericsTests.csproj",
+        "packagesPath": "D:\\NuGetPackages",
+        "outputPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenericsTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HackerVirus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+          "C:\\Users\\u037lxw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "G:\\NuGetPackages": {},
-          "https://api.nuget.org/v3/index.json": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\NuGetPackages": {},
           "https://nuget.cdn.azure.cn/v3/index.json": {},
           "https://nuget.cnblogs.com/v3/index.json": {}
         },
@@ -36,8 +30,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj": {
-                "projectPath": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj"
+              "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj": {
+                "projectPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj"
               }
             }
           }
@@ -85,35 +79,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj": {
+    "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj",
+        "projectUniqueName": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj",
         "projectName": "WebAPI.Net6.BaseRepositoryGenerics",
-        "projectPath": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj",
-        "packagesPath": "G:\\Nuget\\.nuget",
-        "outputPath": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\obj\\",
+        "projectPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj",
+        "packagesPath": "D:\\NuGetPackages",
+        "outputPath": "D:\\Code\\My\\LabDemo\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HackerVirus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+          "C:\\Users\\u037lxw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "G:\\NuGetPackages": {},
-          "https://api.nuget.org/v3/index.json": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\NuGetPackages": {},
           "https://nuget.cdn.azure.cn/v3/index.json": {},
           "https://nuget.cnblogs.com/v3/index.json": {}
         },
@@ -152,6 +140,10 @@
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.8.802, )"
             },
             "Consul": {
               "target": "Package",
@@ -235,6 +227,22 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.Extended": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.FSharp": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.SourceGenerator": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[8.2.0, )"
@@ -254,6 +262,38 @@
             "Polly.RateLimiting": {
               "target": "Package",
               "version": "[8.2.0, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Jobs": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Plugins": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Plugins.TimeZoneConverter": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Serialization.Json": {
+              "target": "Package",
+              "version": "[3.8.0, )"
             },
             "Refit": {
               "target": "Package",
@@ -287,6 +327,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -319,7 +363,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

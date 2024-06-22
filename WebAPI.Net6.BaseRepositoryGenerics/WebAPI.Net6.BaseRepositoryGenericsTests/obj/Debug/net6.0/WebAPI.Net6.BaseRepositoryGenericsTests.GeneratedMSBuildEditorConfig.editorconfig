@@ -9,6 +9,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAPI.Net6.BaseRepositoryGenericsTests
-build_property.ProjectDir = E:\CwtCode\GithubCode\BaseRepositoryGenerics20231221\WebAPI.Net6.BaseRepositoryGenerics\WebAPI.Net6.BaseRepositoryGenericsTests\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Code\My\LabDemo\BaseRepositoryGenerics20231221\WebAPI.Net6.BaseRepositoryGenerics\WebAPI.Net6.BaseRepositoryGenericsTests\
