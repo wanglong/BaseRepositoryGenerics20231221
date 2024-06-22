@@ -1,0 +1,638 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\autofacmoduleregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\autofacmoduleregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\common\\errormessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\common\\errormessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\infrastructure\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\infrastructure\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\commands\\updateerrormessagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\commands\\updateerrormessagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\queries\\errormessagequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\queries\\errormessagequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\queries\\errormessagequeryidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\queries\\errormessagequeryidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\controllers\\errormessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\controllers\\errormessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\commands\\createerrormessagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\commands\\createerrormessagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\infrastructure\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\infrastructure\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\repositories\\errormessage\\errormessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\repositories\\errormessage\\errormessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\irepositories\\errormessage\\ierrormessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\irepositories\\errormessage\\ierrormessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\services\\errormessage\\errormessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\services\\errormessage\\errormessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\irepositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\irepositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\services\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\services\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\services\\secure\\cipherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\services\\secure\\cipherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\iservices\\cache\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\iservices\\cache\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\iservices\\secure\\icipherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\iservices\\secure\\icipherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\infrastructure\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\infrastructure\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\iservices\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\iservices\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\infrastructure\\invalidmodelstateresponsefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\infrastructure\\invalidmodelstateresponsefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\infrastructure\\errorresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\infrastructure\\errorresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\extensions\\modelstateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\extensions\\modelstateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\domain\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\domain\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\validators\\errormessageupdaterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\validators\\errormessageupdaterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|e:\\cwtcode\\githubcode\\baserepositorygenerics20231221\\webapi.net6.baserepositorygenerics\\webapi.net6.baserepositorygenerics\\application\\errormessage\\validators\\errormessageaddrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212C3A37-9B25-4786-991F-43A8EA30CC0C}|WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics.csproj|solutionrelative:webapi.net6.baserepositorygenerics\\application\\errormessage\\validators\\errormessageaddrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Result.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\Result.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\Result.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\Result.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\Result.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAwwHEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T01:50:17.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutofacModuleRegister.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutofacModuleRegister.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutofacModuleRegister.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutofacModuleRegister.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutofacModuleRegister.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T14:33:13.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorMessageViewModel.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Common\\ErrorMessageViewModel.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Common\\ErrorMessageViewModel.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Common\\ErrorMessageViewModel.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Common\\ErrorMessageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:45:40.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutoMapperProfile.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutoMapperProfile.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:33:48.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Program.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Program.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateErrorMessageCommandHandler.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\UpdateErrorMessageCommandHandler.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\UpdateErrorMessageCommandHandler.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\UpdateErrorMessageCommandHandler.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\UpdateErrorMessageCommandHandler.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv08AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\BaseResponse.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\BaseResponse.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\BaseResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorMessageQueryHandler.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryHandler.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryHandler.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryHandler.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryHandler.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwEAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorMessageController.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\ErrorMessageController.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\ErrorMessageController.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\ErrorMessageController.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\ErrorMessageController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAgwHYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorMessageQueryIdHandler.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryIdHandler.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryIdHandler.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryIdHandler.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Queries\\ErrorMessageQueryIdHandler.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAxwIQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateErrorMessageCommandHandler.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\CreateErrorMessageCommandHandler.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\CreateErrorMessageCommandHandler.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\CreateErrorMessageCommandHandler.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Commands\\CreateErrorMessageCommandHandler.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwFAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ErrorMessageUpdateRequestValidator.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageUpdateRequestValidator.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageUpdateRequestValidator.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageUpdateRequestValidator.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageUpdateRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ErrorMessageAddRequestValidator.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageAddRequestValidator.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageAddRequestValidator.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageAddRequestValidator.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Application\\ErrorMessage\\Validators\\ErrorMessageAddRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\MiddlewareExtensions.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\MiddlewareExtensions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnumExtensions.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\EnumExtensions.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\EnumExtensions.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\EnumExtensions.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\EnumExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DateTimeExtensions.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\DateTimeExtensions.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\DateTimeExtensions.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\DateTimeExtensions.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\DateTimeExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StringHelper.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\StringHelper.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\StringHelper.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\StringHelper.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\StringHelper.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAzwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IErrorMessageRepository.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\ErrorMessage\\IErrorMessageRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\ErrorMessage\\IErrorMessageRepository.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\ErrorMessage\\IErrorMessageRepository.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\ErrorMessage\\IErrorMessageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorMessageRepository.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\ErrorMessage\\ErrorMessageRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\ErrorMessage\\ErrorMessageRepository.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\ErrorMessage\\ErrorMessageRepository.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\ErrorMessage\\ErrorMessageRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorMessageService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\ErrorMessage\\ErrorMessageService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\ErrorMessage\\ErrorMessageService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\ErrorMessage\\ErrorMessageService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\ErrorMessage\\ErrorMessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\appsettings.json",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\appsettings.json",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-29T13:25:38.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\appsettings.Development.json",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\appsettings.Development.json",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-29T13:25:38.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\BaseRepository.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\Cache\\CacheService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\Cache\\CacheService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\Cache\\CacheService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\Cache\\CacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IBaseRepository.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IBaseRepository.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CipherService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\Secure\\CipherService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\Secure\\CipherService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\Secure\\CipherService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\Secure\\CipherService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Cache\\ICacheService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Cache\\ICacheService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Cache\\ICacheService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Cache\\ICacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICipherService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Secure\\ICipherService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Secure\\ICipherService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Secure\\ICipherService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\Secure\\ICipherService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConfigHelper.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ConfigHelper.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ConfigHelper.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ConfigHelper.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ConfigHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InvalidModelStateResponseFactory.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\InvalidModelStateResponseFactory.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\InvalidModelStateResponseFactory.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\InvalidModelStateResponseFactory.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\InvalidModelStateResponseFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\IBaseService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\IBaseService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\IBaseService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IServices\\IBaseService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ErrorResource.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ErrorResource.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ErrorResource.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ErrorResource.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Infrastructure\\ErrorResource.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ModelStateExtensions.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\ModelStateExtensions.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\ModelStateExtensions.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\ModelStateExtensions.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Extensions\\ModelStateExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\BaseService.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Services\\BaseService.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Services\\BaseService.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAEBCwIgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IUnitOfWork.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\IRepositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\MyContext.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\MyContext.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Domain\\MyContext.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Domain\\MyContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwEUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\CwtCode\\GithubCode\\BaseRepositoryGenerics20231221\\WebAPI.Net6.BaseRepositoryGenerics\\WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebAPI.Net6.BaseRepositoryGenerics\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T13:25:38.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
